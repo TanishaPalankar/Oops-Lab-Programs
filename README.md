@@ -10,14 +10,14 @@ The programs cover fundamental C++ concepts, object-oriented principles, and pra
 - Branch: Electronics and Communication Engineering
 - Language: C++
 ## Repository Contents
-**Chapter 1: Introduction to C++**
+## Chapter 1: Introduction to C++
 - Basics of C++ programming
 - Data types, variables and operators
 - Conditional statements and loops
 - Arrays and strings
 - Functions and parameter passing
 - Basic problem-solving programs  
-**Chapter 2: Classes and Objects**
+## Chapter 2: Classes and Objects
 - Classes and objects
 - Data members and member functions
 - Access specifiers
@@ -27,7 +27,7 @@ The programs cover fundamental C++ concepts, object-oriented principles, and pra
 - Static members
 - Inline functions
 - Friend functions and friend classes  
-**Chapter 3: Inheritance** 
+## Chapter 3: Inheritance
 - Fundamentals of inheritance
 - Base and derived classes
 - Single inheritance
