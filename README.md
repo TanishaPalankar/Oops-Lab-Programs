@@ -1,5 +1,5 @@
 # Oops-Lab-Programs
-Object Oriented Programming using C++
+**Object Oriented Programming using C++ ** 
 This repository contains my C++ programs, practical exercises, and implementations developed as part of the **Object-Oriented Programming** using C++ course.
 
 The programs cover fundamental C++ concepts, object-oriented principles, and practical coding exercises, organized according to the topics covered in class.
@@ -9,14 +9,14 @@ The programs cover fundamental C++ concepts, object-oriented principles, and pra
 -University: KLE Technological University
 -Branch: Electronics and Communication Engineering
 -Language: C++
-##Repository Contents
+##Repository Contents  
 **Chapter 1: Introduction to C++**
 - Basics of C++ programming
 - Data types, variables and operators
 - Conditional statements and loops
 - Arrays and strings
 - Functions and parameter passing
-- Basic problem-solving programs
+- Basic problem-solving programs  
 **Chapter 2: Classes and Objects**
 - Classes and objects
 - Data members and member functions
@@ -27,7 +27,7 @@ The programs cover fundamental C++ concepts, object-oriented principles, and pra
 - Static members
 - Inline functions
 - Friend functions and friend classes
-**Chapter 3: Inheritance**
+**Chapter 3: Inheritance**  
 - Fundamentals of inheritance
 - Base and derived classes
 - Single inheritance
