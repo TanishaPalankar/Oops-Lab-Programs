@@ -1,2 +1,2 @@
 # Oops-Lab-Programs
-Object Oriented Programming Lab Programs
+Object Oriented Programming using C++
