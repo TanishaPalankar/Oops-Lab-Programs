@@ -1,47 +1,31 @@
-// write a C++ program to implement multiple-inheritance for the given scenerio.
-//
+//single inheritance
 #include<iostream>
 using namespace std;
-
-class Liquid
+class Animal
 {
-    int volume;
+    //int legs=4;
 public:
+    int legs=4;
     void display1()
     {
-        cout<<"Liquid"<<endl;
+       cout<<"Legs="<<legs<<endl;
     }
 };
-
-class Fuel
+class Dog : private  Animal
 {
-    string type;
+    bool tail=true;
 public:
     void display2()
     {
-        cout<<"Fuel"<<endl;
-    }
-};
-
-class Petrol:public Liquid,public Fuel
-{
-    string fuel_type;
-public:
-    void display3()
-    {
-        cout<<"Petrol"<<endl;
+        cout<<"\nTail="<<tail<<endl;
+     //   cout<<"Legs="<<legs<<endl;
     }
 };
 int main()
 {
-    Liquid l1;
-    Fuel f1;
-    Petrol p1;
-    l1.display1();
-    f1.display2();
-    p1.display3();
-    p1.display2();
-    p1.display1();
-
+    Animal a1;
+    Dog d1;
+   // d1.display1();
+    d1.display2();
     return 0;
 }
