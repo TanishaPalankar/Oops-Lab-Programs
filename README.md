@@ -16,7 +16,7 @@ The programs cover fundamental C++ concepts, object-oriented principles, and pra
 - Conditional statements and loops
 - Arrays and strings
 - Functions and parameter passing
-- Basic problem-solving programs 
+- Basic problem-solving programs  
 **Chapter 2: Classes and Objects**
 - Classes and objects
 - Data members and member functions
@@ -26,7 +26,7 @@ The programs cover fundamental C++ concepts, object-oriented principles, and pra
 - Destructors
 - Static members
 - Inline functions
-- Friend functions and friend classes 
+- Friend functions and friend classes  
 **Chapter 3: Inheritance** 
 - Fundamentals of inheritance
 - Base and derived classes
