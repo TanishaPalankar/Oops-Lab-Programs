@@ -27,7 +27,7 @@ The programs cover fundamental C++ concepts, object-oriented principles, and pra
 - Static members
 - Inline functions
 - Friend functions and friend classes
-**Chapter 3: Inheritance**  
+**Chapter 3: Inheritance** 
 - Fundamentals of inheritance
 - Base and derived classes
 - Single inheritance
