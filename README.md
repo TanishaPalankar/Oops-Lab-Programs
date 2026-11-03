@@ -34,6 +34,14 @@ The programs cover fundamental C++ concepts, object-oriented principles, and pra
 - Multilevel inheritance
 - Access control in inheritance
 - Implementing inheritance using C++
+## Chapter 4:Polymorphism
+- Compile-time and run-time polymorphism.
+- Function overloading, operator overloading
+- function overriding
+- virtual functions and abstract classes.
+## Chapter 5:Exception Handling
+- Exception handling using try
+-  Throw and catch blocks.
 ## Technologies Used
 - Programming Language: C++
 - Concepts: Object-Oriented Programming
