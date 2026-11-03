@@ -1,15 +1,11 @@
-// Addition of 2 numbers
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-    int number1,number2;
-    cout<<"Enter first number: ";
-    cin>>number1;
-    cout<<"Enter second number: ";
-    cin>>number2;
-    cout<<"First number :"<<number1<<endl;
-    cout<<"Second number :"<<number2<<endl;
-    cout<<"SUM: "<<number1+number2<<endl;
-    return 0;
+ cout<<"Name: Tanisha"<<endl;
+ cout<<"City: Hubli"<<endl;
+ cout<<"Country: India"<<endl;
+
+ return 0;
+
 }
