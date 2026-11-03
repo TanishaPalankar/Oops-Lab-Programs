@@ -1,31 +1,42 @@
-//single inheritance
 #include<iostream>
 using namespace std;
-class Animal
+
+class Student
 {
-    //int legs=4;
+    int roll_no;
+    string name;
 public:
-    int legs=4;
-    void display1()
+
+    Student(int a,string b):roll_no(a),name(b){}
+
+};
+
+class Test
+{
+    int marks;
+public:
+
+    Test(int c):marks(c){}
+};
+
+class Result:public Student,public Test
+{
+    int total_marks;
+    float percentage;
+public:
+    Result(int d,float e,int r,string n,int m):Student(r,n),Test(m),total_marks(d),percentage(e){}
+    void display()
     {
-       cout<<"Legs="<<legs<<endl;
+
+      cout<<"This is the total marks :"<<total_marks<<"\n This is the percentage :"<<percentage<<endl;
     }
 };
-class Dog : private  Animal
-{
-    bool tail=true;
-public:
-    void display2()
-    {
-        cout<<"\nTail="<<tail<<endl;
-     //   cout<<"Legs="<<legs<<endl;
-    }
-};
+
 int main()
 {
-    Animal a1;
-    Dog d1;
-   // d1.display1();
-    d1.display2();
+
+    Result r1(92,88.9,348,"Tanisha",65);
+    r1.display();
+
     return 0;
 }
