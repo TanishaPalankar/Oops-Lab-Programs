@@ -1,15 +1,15 @@
 # Oops-Lab-Programs
-**Object Oriented Programming using C++ ** 
+## Object Oriented Programming using C++ 
 This repository contains my C++ programs, practical exercises, and implementations developed as part of the **Object-Oriented Programming** using C++ course.
 
 The programs cover fundamental C++ concepts, object-oriented principles, and practical coding exercises, organized according to the topics covered in class.
 ## Course Information
--Course: Object-Oriented Programming using C++
--Course Code: 26EECE421
--University: KLE Technological University
--Branch: Electronics and Communication Engineering
--Language: C++
-##Repository Contents  
+- Course: Object-Oriented Programming using C++
+- Course Code: 26EECE421
+- University: KLE Technological University
+- Branch: Electronics and Communication Engineering
+- Language: C++
+## Repository Contents
 **Chapter 1: Introduction to C++**
 - Basics of C++ programming
 - Data types, variables and operators
