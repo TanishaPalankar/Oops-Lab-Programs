@@ -1,42 +1,47 @@
+// write a C++ program to implement multiple-inheritance for the given scenerio.
+//
 #include<iostream>
 using namespace std;
 
-class Student
+class Liquid
 {
-    int roll_no;
-    string name;
+    int volume;
 public:
-
-    Student(int a,string b):roll_no(a),name(b){}
-
-};
-
-class Test
-{
-    int marks;
-public:
-
-    Test(int c):marks(c){}
-};
-
-class Result:public Student,public Test
-{
-    int total_marks;
-    float percentage;
-public:
-    Result(int d,float e,int r,string n,int m):Student(r,n),Test(m),total_marks(d),percentage(e){}
-    void display()
+    void display1()
     {
-
-      cout<<"This is the total marks :"<<total_marks<<"\n This is the percentage :"<<percentage<<endl;
+        cout<<"Liquid"<<endl;
     }
 };
 
+class Fuel
+{
+    string type;
+public:
+    void display2()
+    {
+        cout<<"Fuel"<<endl;
+    }
+};
+
+class Petrol:public Liquid,public Fuel
+{
+    string fuel_type;
+public:
+    void display3()
+    {
+        cout<<"Petrol"<<endl;
+    }
+};
 int main()
 {
-
-    Result r1(92,88.9,348,"Tanisha",65);
-    r1.display();
+    Liquid l1;
+    Fuel f1;
+    Petrol p1;
+    l1.display1();
+    f1.display2();
+    p1.display3();
+    p1.display2();
+    p1.display1();
 
     return 0;
 }
